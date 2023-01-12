@@ -28,9 +28,9 @@ public class MyPostTest {
         actions = new Actions(driver);
         driver.manage().window(). maximize() ;
         driver.get("https://test-stand.gb.ru/?sort=createdAt&order=ASC");
-        driver.findElement(By.xpath("//input[contains(@type, 'text')]")).sendKeys("1839");
+        driver.findElement(By.xpath("//input[contains(@type, 'text')]")).sendKeys("3184");
 
-        driver.findElement(By.xpath("//input[contains(@type, 'password')]")).sendKeys("728f206c2a");
+        driver.findElement(By.xpath("//input[contains(@type, 'password')]")).sendKeys("109a33176f");
         driver.findElement(By.xpath("//span[contains(@class, 'mdc-button__label')]")).click();
         //  Thread.sleep(5000);
         webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//h1[contains(@class, 'svelte-1e9zcmy')]")));
